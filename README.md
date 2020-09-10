@@ -88,3 +88,4 @@ if __name__ == "__main__":
     
     
 ```
+# 3) step , you can open file game.py :)
