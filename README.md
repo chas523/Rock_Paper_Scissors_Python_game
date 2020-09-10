@@ -1,10 +1,10 @@
 # Game Rock-Paper-Scissors in Python
 
 
-## 1.step
+## 1) step
   --------------------------------------------------------------------
-  elemnts = ['water'.'dragon','devil','gun','rock','fire','scissors','snake','human','tree','wolf','sponger','paper','air','lightning']
-  
+  elemnts = ['water', 'dragon', 'devil', 'gun', 'rock', 'fire', 'scissors', 'snake', 'human', 'tree', 'wolf', 'sponger', 'paper', 'air', 'lightning']
+
   
   
   winning_cases = {
