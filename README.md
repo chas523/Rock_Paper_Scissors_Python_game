@@ -53,5 +53,15 @@ class game:
         'lightning': ['tree', 'human', 'snake', 'scissors', 'fire', 'rock', 'gun']
     }
   __file_rating = open("rating.txt","w+")
-  
+      
+      def __init__(self):
+          self.__name_player = input("Enter your name: ")
+          print("Hello, " + self.__name_player)
+        
+
+
+if __name__ == "__main__":
+    game()
+    
+    
 ```
