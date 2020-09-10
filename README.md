@@ -26,7 +26,7 @@
     'lightning' : ['tree', 'human', 'snake', 'scissors', 'fire', 'rock', 'gun']
 }
 ```
-## 2) step - creating 'class game'
+## 2) step - creating 'class game' and import module 'random'
     class game:
         ....
         ....
