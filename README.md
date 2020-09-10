@@ -52,5 +52,6 @@ class game:
         'air': ['fire', 'rock', 'gun', 'lightning', 'devil', 'dragon', 'water'],
         'lightning': ['tree', 'human', 'snake', 'scissors', 'fire', 'rock', 'gun']
     }
-
+  __file_rating = open("rating.txt","w+")
+  
 ```
