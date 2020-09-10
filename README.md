@@ -24,4 +24,4 @@
     'air' : ['fire', 'rock', 'gun', 'lightning', 'devil', 'dragon', 'water'],
     'lightning' : ['tree', 'human', 'snake', 'scissors', 'fire', 'rock', 'gun']
 }
---------------------------------------------------------------------
+
