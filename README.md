@@ -52,11 +52,34 @@ class game:
         'air': ['fire', 'rock', 'gun', 'lightning', 'devil', 'dragon', 'water'],
         'lightning': ['tree', 'human', 'snake', 'scissors', 'fire', 'rock', 'gun']
     }
-  __file_rating = open("rating.txt","w+")
+  
       
-      def __init__(self):
-          self.__name_player = input("Enter your name: ")
-          print("Hello, " + self.__name_player)
+      #konstruktor
+    def __init__(self):
+        self.__name_player = input("Enter your name: ")
+        print("Hello, " + self.__name_player)
+        self.__rating_player = self.__check_rating()
+        self.__rating_first = self.__rating_player  # for function __save_rating
+
+        # while True:
+       #     self.__elemets_selected = input()
+       #     if self.__elemets_selected == "":
+       #         self.__default_game()
+       #         break
+       #     for element in self.__elemets_selected.split(","):
+       #         if element not in self.__all_elements:
+       #             print("Invalid input")
+       #         else:
+       #             self.__new_game()
+       #             break
+        
+       
+        self.__elemets_selected = input()
+        if self.__elemets_selected == "":
+            self.__default_game()
+        else:
+            self.__new_game()
+
         
 
 
