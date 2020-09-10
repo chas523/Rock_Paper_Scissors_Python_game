@@ -3,10 +3,11 @@
 
 ## 1) step
   --------------------------------------------------------------------
+  ```python
   elemnts = ['water', 'dragon', 'devil', 'gun', 'rock', 'fire', 'scissors', 'snake', 'human', 'tree', 'wolf', 'sponger', 'paper', 'air', 'lightning']
 
   
-  
+ 
   winning_cases = {
     'water' : ['scissors', 'fire', 'rock', 'hun', 'lightning', 'devil', 'dragon'],
     'dragon' : ['snake', 'scissors', 'fire', 'rock', 'gun', 'lightning', 'devil'],
@@ -24,7 +25,7 @@
     'air' : ['fire', 'rock', 'gun', 'lightning', 'devil', 'dragon', 'water'],
     'lightning' : ['tree', 'human', 'snake', 'scissors', 'fire', 'rock', 'gun']
 }
-
+```
 ## 2) step - creating 'class game'
     class game:
         ....
